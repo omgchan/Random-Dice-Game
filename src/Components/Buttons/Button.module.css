@@ -1,0 +1,33 @@
+.primary_btn {
+    padding: 10px 18px;
+    width: 220px;
+    height: 44px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1.4px solid transparent;
+    transition: 0.4 ease;
+}
+.primary_btn:hover{
+    padding: 10px 18px;
+    width: 220px;
+    height: 44px;
+    background-color: white;
+    border: none;
+    color: black;
+    border: 1.4px solid black;
+    border-radius: 5px;
+}
+
+.secondary_btn {
+    padding: 10px 18px;
+    width: 220px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+
+}
