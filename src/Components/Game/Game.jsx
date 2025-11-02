@@ -3,6 +3,8 @@
     import styles from './Game.module.css'
     import Button from "../Buttons/Button"
     import Rules from '../Rules'
+    import PopUp from '../popUp'
+
     function Game() {
         const [selectedNumber, setSelectedNumber] = useState(null);
         const [currentDice, setCurrentDice] = useState(3);
@@ -93,18 +95,7 @@
                         <Rules/>
                     </div>
                 )}
-                {showPopup && (
-    <div className={styles.popup}>
-        <div className={styles.popupContent}>
-            <h3>⚠️ No Number Selected</h3>
-            <p>Please select a number before rolling the dice!</p>
-            <Button 
-                text="OK" 
-                onClick={() => setShowPopup(false)}
-            />
-        </div>
-    </div>
-)}
+                {showPopup && <PopUp onClose={() => setShowPopup(false)} />}
             </div>
             
         )

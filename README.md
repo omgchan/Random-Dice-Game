@@ -1,16 +1,25 @@
-# React + Vite
+🎲 Dice Roll Game
+A fun and interactive dice-rolling game built with React.js!
+Guess the number, roll the dice, and test your luck — gain points when you guess right and lose points when you don’t.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🕹️ How to Play
+Select a number (1–6) from the options.
+Click the dice to roll.
+If your guess matches the dice roll → ✅ you earn points equal to your guess.
+If not → ❌ you lose 2 points.
+Click Reset Score to start over.
+Toggle Show Rules anytime to revisit instructions.
+⚠️ If you roll the dice without selecting a number, a friendly popup reminder appears!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+🎨 Clean UI with modular React components
+🧠 Smart state management using React Hooks (useState, useEffect, useRef)
+🎲 Dynamic dice rendering based on random rolls
+📜 Smooth scroll to rules section
+⚡ Real-time score tracking and reset functionality
+💬 Popup validation for missing number selection
+🧩 Scoped styles using CSS Modules
+🧰 Tech Stack
+Frontend: React.js
+Styling: CSS Modules
+Build Tool: Vite
